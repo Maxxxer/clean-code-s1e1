@@ -1,31 +1,54 @@
 /* Basic Style */
-body {
+ul,
+h1,
+h2
+ {
+    margin: 0;
+    padding: 0px;
+}
+
+li,
+h3 {
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+
+
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
-    text-align: right;
+    }
+
+.matrix__question {
+     text-align: right;
 }
 
-.aaa img {
+.matrix__img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.matrix__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-    .aaa {
+    .matrix__question {
         text-align: center;
     }
 }
-.centered-main-page-element {
+.wrapper {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -41,22 +64,7 @@ body {
     display: flex;
 }
 
-ul {
-    margin: 0;
-    padding: 0px;
-}
-
-li,
-h3 {
-    list-style: none;
-}
-
-input,
-button {
-    outline: none;
-}
-
-button {
+.button {
     background: none;
     border: 0px;
     color: #888;
@@ -66,13 +74,13 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button:hover {
     color: #3a3a3a;
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+
+.heading {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -139,7 +147,7 @@ li > input[type="text"] {
     width: 226px;
 }
 
-button.delete img {
+.button__img_delete {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
