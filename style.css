@@ -160,11 +160,11 @@ button {
     display: none;
 }
 
-.item_editmode .input-container__input {
+.item_edit-mode .input-container__input {
     display: inline-block;
     width: 224px;
 }
 
-.item_editmode .input-container__task {
+.item_edit-mode .input-container__task {
     display: none;
 }
