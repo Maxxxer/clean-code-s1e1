@@ -11,7 +11,7 @@ h3 {
 }
 
 input,
-button{
+button {
     outline: none;
 }
 
@@ -50,8 +50,7 @@ button{
 }
 
 .input-container__input,
-.input-container__task
- {
+.input-container__task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -124,35 +123,23 @@ button{
     align-items: center;
 }
 
-li > * {
-    vertical-align: middle;
-}
 .input-container__checkbox {
     margin: 0 10px;
 }
 
-/* li > label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
-} */
+
 .input-container__task {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .input-container__input {
     width: 226px;
 }
-/* li >    input[type="text"] {
-    width: 226px;
-} */
 
-.button__img_delete
-/* button.delete img */
-{
+.button__img_delete{
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
@@ -168,15 +155,6 @@ li > * {
     text-decoration: line-through;
     color: #888;
 }
-/* ul#completed-tasks label {
-    text-decoration: line-through;
-    color: #888;
-} */
-
-/* Edit Task */
-/* ul li input[type=text] {
-    display: none;
-} */
 
 .item .input-container__input {
     display: none;
