@@ -66,15 +66,15 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
+    font-family: lato, sans-serif;
     cursor: pointer;
 }
 
 .button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 
-/* Heading */
+/* heading */
 .heading {
     color: #333;
     font-weight: 700;
@@ -94,7 +94,7 @@ button {
     border: 1px solid #ddd;
     background: #fff;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    font-family: lato, sans-serif;
     color: #888;
 }
 
@@ -102,7 +102,7 @@ button {
     color: #333;
 }
 
-/* New Task */
+/* new task */
 .heading_add-item {
     display: block;
     margin: 0 0 20px;
@@ -112,7 +112,7 @@ button {
     width: 318px;
 }
 
-/* Task list */
+/* task list */
 .item {
     overflow: hidden;
     padding: 20px 0;
@@ -149,7 +149,7 @@ button {
     transform: rotateZ(0);
 }
 
-/* Completed */
+/* completed */
 
 .completed-items .input-container__task {
     text-decoration: line-through;
@@ -160,11 +160,11 @@ button {
     display: none;
 }
 
-.item_editMode .input-container__input {
+.item_editmode .input-container__input {
     display: inline-block;
     width: 224px;
 }
 
-.item_editMode .input-container__task {
+.item_editmode .input-container__task {
     display: none;
 }
