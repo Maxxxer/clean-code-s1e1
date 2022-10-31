@@ -1,4 +1,4 @@
-/* Basic Style */
+/* Reset Styles */
 p,
 ul {
     margin: 0;
@@ -14,7 +14,7 @@ input,
 button {
     outline: none;
 }
-
+/* Basic Style */
 .body {
     background-color: #f8f8f8;
     color: #333;
@@ -150,7 +150,6 @@ button {
 }
 
 /* completed */
-
 .completed-items .input-container__task {
     text-decoration: line-through;
     color: #888;
